@@ -1,145 +1,85 @@
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #f3c4ff;
-    margin: 0;
-    padding: 20px;
+body{
+    background-color: rgb(253, 211, 218);
 }
 
-header {
-    background-color: purple;
-    color: white;
-    text-align: center;
-    padding: 20px; 
-}
-
-h1 {
-    margin: 0; 
-}
-
-
-.container {
-    height: -2cm;
-    padding-bottom: 3cm;
-    max-width: 1000px;
-    margin: 0 auto;
+header{
+    background-color: palevioletred;
     padding: 10px;
-    background-color: rgb(255, 255, 253);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(197, 38, 38, 0.1);
-}
-
-.container nav{
     text-align: center;
-    background-color: rgb(236, 188, 255);
-    padding: 2px;
+    color: rgb(255, 245, 254);
 }
 
-.container hr{
-    background-color: purple;
-    height: 0.01cm;
+#Bienvenido{
+    font-size: 300%;
 }
 
-.container a {
+nav{
+    text-align: center;
+    height: 1cm;
+    font-size: large;
+}
+
+nav a{
+    color: rgb(166, 12, 99);
     text-decoration: none;
-    color: purple;
-    margin: 0 70px;
+    margin: 0 15px;
     font-weight: bold;
-    font-size:larger;
+    text-align: center;
 }
 
-h2{
-    color: purple;
-    text-align: left;
-    font-size:xx-large;
+nav a:hover{
+    color: rgb(255, 255, 255);
 }
 
-nav a:hover {
-    color: white;
-    background-color: purple; /* Cambio de fondo para que sea más visible */
+.container{
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgb(255, 248, 238);
+    border-radius: 8px ;
+    box-shadow: 0 0 10px rgb(166, 12, 99);
+}
+
+.container h2{
+    color: rgb(242, 79, 133);
+    text-align: center;
+}
+
+.container p{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1cm;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 table{
-    text-align: center;
-    margin: auto;
-    width: 60%;
-    border-width: 0cap;
-    border-collapse: collapse;
+    color: rgb(52, 0, 35); /* Color del texto de la tabla */
+    text-align:center; /* Centra el texto dentro de la tabla */
+    width: 20%; /* Ancho de la tabla en relación al contenedor */
+    border: 1cm;
+    border-collapse:separate; /* Elimina espacios entre bordes */
+    margin: 1px auto; /* Centra la tabla y le da espacio superior/inferior */
 }
 
 th{
-    background-color: #dca7f2;
-    height: 1cm;
+    background-color: rgb(247, 152, 184);
+    padding: 0.5cm;
 }
 
-th, td{
-    border: 0.08cm solid purple;
+td {
+    border: 1cm; /* Borde de las celdas */
+    padding: 1cm; /* Espacio interno en cada celda */
+    background-color: #fcebf7;
 }
 
-
-.final h2{
-    color: purple;
-    font-size:xx-large;
+img{
+    width: 4cm;
 }
 
-.final h3{
-    margin-top: -15px;
-    font-size:x-large;
+footer{
+    background-color: palevioletred;
+    color: aliceblue;
     text-align: center;
-}
-
-.container .final nav {
-    background-color: transparent; 
-}
-
-.container .final nav a {
-    background-color: #500586; 
-    color: antiquewhite; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: none; 
-    text-align: center; 
-    font-weight: bold; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
-    cursor: pointer; 
-    transition: background-color 0.3s; /
-}
-
-.container .final nav a:hover {
-    background-color: #6a2e9f; 
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: bold;
-    color: #570063;
-}
-input, textarea, select {
-    width: 97%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #500586;
-    border-radius: 4px;
-}
-
-select {
-    background-color: #fff; /* Fondo blanco */
-    color: black; /* Color del texto */
-    border: 1px solid #500586; /* Borde personalizado */
-    padding: 10px;
-    font-size: 14px;
-    width: 100%; /* Ajusta el tamaño del select */
-}
-
-
-input[type="submit"] {
-    background-color: #914caf;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-input[type="submit"]:hover {
-    background-color: #7b3699;
+    padding: 10px 0;
+    margin-top: 20px;
 }
